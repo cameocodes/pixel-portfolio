@@ -12,6 +12,7 @@ html, body {
     width: 100%;
     /* --main-color:rgb(245, 167, 171);  */
     --main-color:#F5DCE4;
+    text-align: center;
 }
 
 #navbar {
@@ -59,8 +60,8 @@ main {
     height: 100%;
     margin: 0% 5% 20% 5%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -69,16 +70,14 @@ main {
     height: auto;
 }
 
-#title {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
 #stack {
     width: 80%;
-    height: 100%;
+    height: auto;
     margin: 0% 10% 20% 10%;
+    font-size: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #projects {
@@ -225,5 +224,10 @@ main {
 
 #home {
     flex-wrap: nowrap;
+}
+
+#hero-img {
+    min-width: 100%;
+    height: auto;
 }
 }
