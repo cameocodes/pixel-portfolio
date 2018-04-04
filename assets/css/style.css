@@ -82,13 +82,13 @@ main {
 
 #projects {
     width: 80%;
-    height: 100%;
+    height: auto;
     margin: 0% 10% 20% 10%;
 }
 
 #contact {
     width: 80%;
-    height: 100%;
+    height: auto;
     margin: 0% 10% 20% 10%;
 }
 
@@ -126,7 +126,7 @@ h1 {
   
   textarea {
     height: 40%;
-    padding: 2%;
+    padding: 2% 2% 20% 2%;
     resize: none;
   }
   
@@ -185,7 +185,7 @@ footer {
   }
 
   textarea {
-      padding: 0% 0% 20% 0%;
+      padding: 2% 2% 20% 2%;
   }
 
   #navbar {
